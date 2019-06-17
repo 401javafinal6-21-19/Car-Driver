@@ -27,7 +27,7 @@ public class SnakeDrivingActivity extends AppCompatActivity {
 
     public void onLeftClick(View view){
         db.collection("driving").document("snake")
-                .set(new DirectionInput())
+                .set(new DirectionInput("left"))
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
                     public void onSuccess(Void aVoid) {
@@ -43,7 +43,7 @@ public class SnakeDrivingActivity extends AppCompatActivity {
     }
     public void onRightClick(View view){
         db.collection("driving").document("snake")
-                .set(new DirectionInput())
+                .set(new DirectionInput("right"))
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
                     public void onSuccess(Void aVoid) {
@@ -59,7 +59,7 @@ public class SnakeDrivingActivity extends AppCompatActivity {
     }
     public void onUpClick(View view){
         db.collection("driving").document("snake")
-                .set(new DirectionInput())
+                .set(new DirectionInput("up"))
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
                     public void onSuccess(Void aVoid) {
@@ -75,7 +75,7 @@ public class SnakeDrivingActivity extends AppCompatActivity {
     }
     public void onDownClick(View view){
         db.collection("driving").document("snake")
-                .set(new DirectionInput())
+                .set(new DirectionInput("down"))
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
                     public void onSuccess(Void aVoid) {
