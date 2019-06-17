@@ -16,6 +16,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onSnakeDriveClick(View view){
-        Intent intent = new Intent(this, SnakeDriving.class);
+        Intent intent = new Intent(this, SnakeDrivingActivity.class);
     }
 }
