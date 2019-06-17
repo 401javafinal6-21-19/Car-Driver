@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Car Driver</string>
+    <string name="direction_up">Up</string>
+    <string name="direction_down">Down</string>
+    <string name="button_left">Left</string>
+    <string name="button_right">Right</string>
+    <string name="button_drive_snake">DRIVE THAT SNAKE</string>
 </resources>
