@@ -26,7 +26,7 @@ public class CarDrivingActivity extends AppCompatActivity {
     }
 
     public void onLeftClick(View view){
-        db.collection("driving").document("snake")
+        db.collection("driving").document("car")
                 .set(new DirectionInput("left"))
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
@@ -42,7 +42,7 @@ public class CarDrivingActivity extends AppCompatActivity {
                 });
     }
     public void onRightClick(View view){
-        db.collection("driving").document("snake")
+        db.collection("driving").document("car")
                 .set(new DirectionInput("right"))
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
@@ -58,7 +58,7 @@ public class CarDrivingActivity extends AppCompatActivity {
                 });
     }
     public void onForwardClick(View view){
-        db.collection("driving").document("snake")
+        db.collection("driving").document("car")
                 .set(new DirectionInput("forward"))
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
@@ -74,7 +74,7 @@ public class CarDrivingActivity extends AppCompatActivity {
                 });
     }
     public void onStopClick(View view){
-        db.collection("driving").document("snake")
+        db.collection("driving").document("car")
                 .set(new DirectionInput("stop"))
                 .addOnSuccessListener(new OnSuccessListener<Void>() {
                     @Override
