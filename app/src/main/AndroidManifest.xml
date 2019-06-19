@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CarDrivingActivity"></activity>
+        <activity android:name=".aboutUs.TreyActivity"></activity>
+        <activity android:name=".aboutUs.DanaActivity" />
+        <activity android:name=".aboutUs.MerryActivity" />
+        <activity android:name=".aboutUs.JessicaActivity" />
+        <activity android:name=".aboutUs.MichaelActivity" />
+        <activity android:name=".aboutUs.NicoleActivity" />
+        <activity android:name=".aboutUs.DevelopersActivity" />
+        <activity android:name=".CarDrivingActivity" />
         <activity android:name=".communicationjson.CarDrivingActivity" />
         <activity android:name=".SnakeDrivingActivity" />
         <activity android:name=".MainActivity">

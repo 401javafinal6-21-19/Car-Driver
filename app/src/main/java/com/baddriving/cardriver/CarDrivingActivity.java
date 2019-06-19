@@ -3,6 +3,7 @@ package com.baddriving.cardriver;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -88,5 +89,18 @@ public class CarDrivingActivity extends AppCompatActivity {
                         Log.d(TAG, "Failed to post a Stop");
                     }
                 });
+    }
+
+
+    // nav direction_buttons
+
+    public void goHome(View view) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void goSnake(View view) {
+        Intent intent = new Intent(this, SnakeDrivingActivity.class);
+        startActivity(intent);
     }
 }

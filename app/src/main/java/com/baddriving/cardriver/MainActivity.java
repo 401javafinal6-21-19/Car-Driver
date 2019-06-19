@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.baddriving.cardriver.aboutUs.DevelopersActivity;
+
 // placeholder to navigate to snake driving
 public class MainActivity extends AppCompatActivity {
 
@@ -22,6 +24,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void onCarDriveClick(View view){
         Intent intent = new Intent(this, CarDrivingActivity.class);
+        startActivity(intent);
+    }
+
+    public void meetDevs(View view) {
+        Intent intent = new Intent(this, DevelopersActivity.class);
         startActivity(intent);
     }
 }
