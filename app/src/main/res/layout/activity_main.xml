@@ -16,4 +16,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="onCarDriveClick"
+        android:text="@string/button_drive_car"
+        app:layout_constraintEnd_toEndOf="@+id/button_drive"
+        app:layout_constraintStart_toStartOf="@+id/button_drive"
+        app:layout_constraintTop_toBottomOf="@+id/button_drive" />
 </androidx.constraintlayout.widget.ConstraintLayout>

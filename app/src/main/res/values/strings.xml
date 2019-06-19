@@ -5,4 +5,7 @@
     <string name="button_left">Left</string>
     <string name="button_right">Right</string>
     <string name="button_drive_snake">DRIVE THAT SNAKE</string>
+    <string name="button_forward">Forward</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_drive_car">DRIVE A CARRRR</string>
 </resources>
