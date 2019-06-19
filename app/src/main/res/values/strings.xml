@@ -8,4 +8,22 @@
     <string name="button_forward">Forward</string>
     <string name="button_stop">Stop</string>
     <string name="button_drive_car">DRIVE A CARRRR</string>
+
+    <string name="navHome">Home</string>
+    <string name="navBack">Go Back</string>
+
+
+    <string name="devs">Meet the Developers</string>
+    <string name="dana">Meet Dana</string>
+    <string name="dana_full">Dana Voros</string>
+    <string name="jess">Meet Jess</string>
+    <string name="jess_full">Jessica Zuchowski</string>
+    <string name="merry">Meet Merry</string>
+    <string name="merry_full">Merry Cimakasky</string>
+    <string name="michael">Meet Michael</string>
+    <string name="michael_full">Michael Jahns</string>
+    <string name="nicole">Meet Nicole</string>
+    <string name="nicole_full">Nicole Kalbfleisch</string>
+    <string name="trey">Meet Trey</string>
+    <string name="trey_full">Trey Herndon</string>
 </resources>
