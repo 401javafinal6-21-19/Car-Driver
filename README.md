@@ -16,12 +16,37 @@ Follow direction at [Android Developers](https://developer.android.com/studio/ru
 ### Run the project on your Android environment
 Load the project in Android Studio, selecting the default options when you load it, and click the run button in the top bar, it looks like a green play button.
 
-![assets/run_button.png]
+![run button](assets/run_button.png)
 
 Select your device from the menu that pops up
 
-![assets/device_select.png]
+![select device](assets/device_select.png)
 
 Press ok, and the project will compile and be loaded into your Android device or emulator, and started!
 
 ## Using the App
+
+1. From the home page:
+
+    1. Drive the Snake
+    
+        1. Use the d-pad to move the snake!
+        2. Navigate back home or to the Car!
+        
+    2. Drive the Car
+    
+        1. Use the d-pad to drive the car!
+        2. Navigate back home or to the Snake!
+        
+    3. Meet the Developers
+    
+        1. Click to select which Dev you'd like to learn more about.
+        
+            | Dev | Names|
+            |------|------|
+            | Dana | Jess|
+            |Merry | Michael|
+            | Nicole | Trey|
+             
+        2. Navigate back home. 
+    
