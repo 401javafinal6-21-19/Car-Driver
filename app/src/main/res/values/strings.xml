@@ -26,4 +26,7 @@
     <string name="nicole_full">Nicole Kalbfleisch</string>
     <string name="trey">Meet Trey</string>
     <string name="trey_full">Trey Herndon</string>
+    <string name="trey_bio">- Illinois native                         - Software Developer                            - Project &amp; Operations Management                             - University of Washington &amp; Citadel Graduate                                                - Army Veteran </string>
+    <string name="tret_headShot">trey_headShot</string>
+
 </resources>
