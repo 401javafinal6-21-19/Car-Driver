@@ -3,10 +3,35 @@
 
 ## Installing the App
 
-### Download the Project
-
 ### Install Android Studio
 Directions are available at [Android Developers](https://developer.android.com/studio/install).
+
+### Download Project
+Project is available at https://github.com/401javafinal6-21-19/Car-Driver.git. To clone the project from command line, use the command
+
+    git clone https://github.com/401javafinal6-21-19/Car-Driver.git
+    
+### Set up Firebase
+Go to [Firebase](https://firebase.google.com/) and follow the instructions there to set up a Firebase project.
+
+Add an Android app to your project, the buttons are at the top of the project overview page
+
+![add app button](assets/add_app.png)
+
+After pressing the add app button, it will swap to a choice of types, click on the android mascot.
+
+![add app button specific types](assets/add_app_types.png)
+
+Enter the project's package name (it must match the project package, com.baddriving.cardriver), and a nickname for adding the project. Do not fill the third box
+
+![options for adding app](assets/add_app_options.png)
+
+On the next page, download the google-services.json, and put it in the project's app foldder
+
+![google services json download](assets/google_services_json.png)
+
+![google services json target location](assets/google_services_json_location.png)
+
 ### Get a device to run on
 You can choose either a device, or an emulator. Note that your Android device or emulator must run at least Android Marshmallow (6.0).
 #### Run on an Android device 
