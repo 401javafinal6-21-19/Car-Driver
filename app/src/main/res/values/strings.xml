@@ -27,9 +27,10 @@
     <string name="trey">Meet Trey</string>
     <string name="trey_full">Trey Herndon</string>
 
+    <string name="merry_bio"> Merry, a non-binary developer who seeks challenges and adventure wherever they go. Driven by whimsy, they delight in creating the absurd and surround themselves with the surreal. Merry makes their home amongst art and cats in Seattle, WA and is eager for the next chance they get to bring a little more magic into the world.</string>
 
 
 
     <string name="nicole_img_description">Nicole, with a cat on her head.</string>
-    <string name="nicole_bio">Nicole is a brand new Java dev. She loves working on the back-end and building out the perfect android app. Oustside of dev work, you can catch her playing with any animal within arms reach, at the archery range, or re-playing one of the Zelda games.</string>
+    <string name="nicole_bio">Nicole is a brand new Java dev. She loves working on the back-end and building out the perfect android app. Outside of dev work, you can catch her playing with any animal within arms reach, at the archery range, or re-playing one of the Zelda games.</string>
 </resources>
