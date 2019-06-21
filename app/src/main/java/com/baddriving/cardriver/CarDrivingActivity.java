@@ -91,9 +91,7 @@ public class CarDrivingActivity extends AppCompatActivity {
                 });
     }
 
-
     // nav direction_buttons
-
     public void goHome(View view) {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
