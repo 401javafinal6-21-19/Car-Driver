@@ -32,6 +32,25 @@ On the next page, download the google-services.json, and put it in the project's
 
 ![google services json target location](assets/google_services_json_location.png)
 
+Finish adding the app by pressing the next/finish buttons.
+
+Go to the Develop panel on the left, and click on Database. Click on the create database button that appears in the banner at the top.
+
+![Firestore develop panel](assets/firestore_setup.png)
+
+Select test mode for permissions
+ 
+![Firestore permissions setup panel](assets/firestore_setup_permissions.png)
+
+Select your region, and accept to set up the database. 
+
+![Firestore region select](assets/firestore_setup_region.png)
+
+When you see this page, you are ready to go!
+
+![Firestore Monitor Panel](assets/firestore_database_monitor.png)
+
+
 ### Get a device to run on
 You can choose either a device, or an emulator. Note that your Android device or emulator must run at least Android Marshmallow (6.0).
 #### Run on an Android device 
@@ -48,6 +67,10 @@ Select your device from the menu that pops up
 ![select device](assets/device_select.png)
 
 Press ok, and the project will compile and be loaded into your Android device or emulator, and started!
+
+### Set up an endpoint to control
+
+Set up either a [Rapsberry Pi Car](https://github.com/401javafinal6-21-19/A-Car-You-Can-Only-Drive-Badly) or a [Firebase hosted snake game](https://github.com/401javafinal6-21-19/DriveBadly)
 
 ## Using the App
 
