@@ -28,16 +28,18 @@
         android:id="@+id/button11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="172dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="8dp"
         android:background="@drawable/nav_buttons"
         android:onClick="onCarDriveClick"
         android:padding="12dp"
         android:text="@string/button_drive_car"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/button_drive"
-        app:layout_constraintStart_toStartOf="@+id/button_drive"
-        app:layout_constraintTop_toBottomOf="@+id/button_drive" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/courierSnakePlay" />
 
     <Button
         android:id="@+id/button34"
@@ -56,5 +58,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button11" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83" />
 </androidx.constraintlayout.widget.ConstraintLayout>
