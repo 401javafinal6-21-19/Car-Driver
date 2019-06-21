@@ -33,5 +33,6 @@
     <string name="nicole_bio">Nicole is a brand new Java dev. She loves working on the back-end and building out the perfect android app. Outside of dev work, you can catch her playing with any animal within arms reach, at the archery range, or re-playing one of the Zelda games.</string>
     <string name="trey_bio">- Illinois native                         - Software Developer                            - Project &amp; Operations Management                             - University of Washington &amp; Citadel Graduate                                                - Army Veteran </string>
     <string name="tret_headShot">trey_headShot</string>
-    
+    <string name="dana_bio">Java developer with a focus on back end development and tools. Gew up on the East Coast. Background in formal CS, came to Code Fellows to finish out skill set.</string>
+
 </resources>
